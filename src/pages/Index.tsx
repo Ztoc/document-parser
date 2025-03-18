@@ -154,7 +154,7 @@ const Index = () => {
 
         {/* Right Column */}
         <div className="w-full md:w-1/2 overflow-y-auto">
-          <div className="p-6 h-full flex flex-col">
+          <div className="p-6 pr-0 h-full flex flex-col">
             <div className="mb-3">
               <h2 className="text-xl font-medium mb-1">Document Preview</h2>
               <p className="text-muted-foreground">
