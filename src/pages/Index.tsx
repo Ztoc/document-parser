@@ -75,7 +75,7 @@ const Index = () => {
     <div className="h-screen flex flex-col overflow-hidden">
       {/* Header */}
       <header className="border-b border-border py-4 px-12 bg-background">
-        <div className="mx-auto flex justify-between items-center">
+        <div className="container mx-auto flex justify-between items-center">
           <div>
             <h1 className="text-xl font-semibold">Text Lattice Parser</h1>
             <p className="text-muted-foreground text-sm">
@@ -95,10 +95,10 @@ const Index = () => {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col md:flex-row overflow-hidden">
+      <main className="container mx-auto flex-1 flex flex-col md:flex-row overflow-hidden">
         {/* Left Column */}
         <div className="w-full md:w-1/2 border-r border-border overflow-y-auto">
-          <div className="py-6 px-12">
+          <div className="py-6">
             <div className="mb-6">
               <h2 className="text-xl font-medium mb-2">
                 Parse OOXML Documents
@@ -205,7 +205,7 @@ const Index = () => {
                   </Tabs>
                 </div>
               ) : (
-                <div className="border border-dashed border-border rounded-lg h-full flex items-center justify-center">
+                <div className="border border-border rounded-lg h-full flex items-center justify-center">
                   <p className="text-muted-foreground">
                     Upload a document to view its content
                   </p>
